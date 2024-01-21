@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jp.co.fukuokabank.backend.BackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-07T18:18:50" hostname="shiorinoMacBook-Air.local" time="1.225">
+  <properties/>
+  <testcase name="contextLoads()" classname="jp.co.fukuokabank.backend.BackendApplicationTests" time="1.225"/>
+  <system-out><![CDATA[03:18:47.036 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [jp.co.fukuokabank.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:18:47.230 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration jp.co.fukuokabank.backend.BackendApplication for test class jp.co.fukuokabank.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-08T03:18:47.928+09:00  INFO 20113 --- [    Test worker] j.c.f.backend.BackendApplicationTests    : Starting BackendApplicationTests using Java 17.0.9 with PID 20113 (started by N.gonda in /Users/N.gonda/Develop/shotodoke/backend)
+2024-01-08T03:18:47.932+09:00  INFO 20113 --- [    Test worker] j.c.f.backend.BackendApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T03:18:49.571+09:00  WARN 20113 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-01-08T03:18:49.682+09:00  INFO 20113 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-01-08T03:18:50.505+09:00  WARN 20113 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c5edfefe-80c2-46be-a64e-e355073468c7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-08T03:18:50.719+09:00  INFO 20113 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@467045c4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55736cfe, org.springframework.security.web.context.SecurityContextHolderFilter@353f472a, org.springframework.security.web.header.HeaderWriterFilter@46320c9a, org.springframework.web.filter.CorsFilter@5a566922, org.springframework.security.web.csrf.CsrfFilter@49edcb30, org.springframework.security.web.authentication.logout.LogoutFilter@7f3fc42f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59d0cdb6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b251fb9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f7a2a5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43da0955, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7af0affa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71560f51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42ed89da, org.springframework.security.web.access.ExceptionTranslationFilter@193eb1ba, org.springframework.security.web.access.intercept.AuthorizationFilter@7a1a3468]
+2024-01-08T03:18:50.866+09:00  INFO 20113 --- [    Test worker] j.c.f.backend.BackendApplicationTests    : Started BackendApplicationTests in 3.382 seconds (process running for 5.65)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: mysql-container
+    platform: linux/x86_64
+    environment:
+      MYSQL_DATABASE: 'shotodoke'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'root_password'
+    ports:
+      - '3006:3306'
+    volumes:
+      - ./middleware/mysql/data:/var/lib/mysql
+      - ./middleware/mysql/start.sh:/start.sh

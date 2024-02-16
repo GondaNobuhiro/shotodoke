@@ -11,9 +11,11 @@
   "dependencies": {
     "atom": "^1.4.2",
     "axios": "^1.6.6",
+    "keycloak-js": "^23.0.5",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-router-dom": "^6.21.3",
     "recoil": "^0.7.7"
   },
   "devDependencies": {

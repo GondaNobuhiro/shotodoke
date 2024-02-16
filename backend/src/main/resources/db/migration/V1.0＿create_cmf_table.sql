@@ -1,0 +1,5 @@
+CREATE TABLE cmf
+(
+    id BIGINT UNSIGNED AUTO_INCREMENT,
+    bank_code VARCHAR(4) NOT NULL
+)

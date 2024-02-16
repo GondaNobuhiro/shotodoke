@@ -9,20 +9,20 @@ import {CodeChallengeResponse} from "@/types/codeChallengeResponse";
 import Head from "next/head";
 
 const AccountAuthenticationAttention: NextPageWithLayout = () => {
-    const router = useRouter()
+/*    const router = useRouter()
     const {post} = useCodeChallenge()
     const mailAddressAuthentication = useRecoilValue(mailAddressAuthenticationState)
-    const authenticatedKey = useRecoilValue(authenticatedKeyState)
+    const authenticatedKey = useRecoilValue(authenticatedKeyState)*/
 
     function moveToAccountAuthentication(){
 
-        post(mailAddressAuthentication.mailAddress, authenticatedKey.emailAuthenticatedKey).then(async(res: AxiosResponse<CodeChallengeResponse>)=> {
+/*        post(mailAddressAuthentication.mailAddress, authenticatedKey.emailAuthenticatedKey).then(async(res: AxiosResponse<CodeChallengeResponse>)=> {
 
         }).catch(async() => {
 
         }).finally(() => {
 
-        })
+        })*/
     }
 
     return (<>
